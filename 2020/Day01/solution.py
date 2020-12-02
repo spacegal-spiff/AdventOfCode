@@ -15,7 +15,7 @@ for entry in values:
 
         print('pair multiplied: ', matching_val * entry)
 
-# part two - sum of THREE entries!
+# part two - product of THREE entries!
 
 # this is less than elegant
 
