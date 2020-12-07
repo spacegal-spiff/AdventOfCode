@@ -15,7 +15,11 @@ entry = []
 while ii < len(file_lines):
     if file_lines[ii] != '\n':
         entry.append(file_lines[ii].strip('\n'))
-        ii += 1
+        if ii == len(file_lines) - 1:
+            passports.append(entry)
+            ii += 1
+        else:
+            ii += 1
     else:
         passports.append(entry)
         entry = []
