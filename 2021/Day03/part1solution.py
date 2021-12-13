@@ -40,4 +40,3 @@ eps = int(eps,2)
 print('binary values for gamma, epsilon: ', gammarate, epsilonrate)
 print('gamma: ', gam, ', epsilon = ', eps, ', product = ', gam*eps)
 
-# spoiler alert, that was not a wise way to code this in prep for part 2
